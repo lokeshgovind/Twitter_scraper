@@ -32,4 +32,4 @@ df=pd.DataFrame(tweets,columns=['Date','Id','Url','Text','Username','Reply_count
      - json
 6. #### **Inserting the data into database**
      + first we have to conver the table into dictionary format
-     + Sub-lists are made by indenting 2 spaces:
+     + and add the dictionry file as a document into the collection **scrapped_twitter_data** of the database **twitter_data**
