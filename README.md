@@ -18,7 +18,7 @@ Import some needed modules
 3. get the data and convert it into a table using **pandas**
       * it has a class called _DataFrame_
       * `code`.
-'''
+```
 for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
             if i>(number_of_tweets-1):
                 break
