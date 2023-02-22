@@ -26,7 +26,7 @@ for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
 df=pd.DataFrame(tweets,columns=['Date','Id','Url','Text','Username','Reply_count','Retweet_count','Language','Source','Likecount'])
 
 ```
-4. use **steamlit** to create a *webpage
+4. use **streamlit** to create a * webpage
 5. add the option for users to download the file as
      * csv
      - json
