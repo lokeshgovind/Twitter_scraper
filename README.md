@@ -19,6 +19,6 @@ Import some needed modules
       * it has a class called _DataFrame_
 4. use **steamlit** to create a *webpage
 5. add the option for users to download the file as
-     - csv
+     * csv
      - json
-6. #### **inserting into database**
+6. #### **inserting the data into database**
