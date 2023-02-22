@@ -6,7 +6,7 @@
 ***
 #### Task List:
     Import some needed modules
-     - [x]pandas
+     - [ ]pandas
      - [x]streamlit
      - [x]json
      - [x]snscrape
