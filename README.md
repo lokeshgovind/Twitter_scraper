@@ -18,13 +18,11 @@ Import some needed modules
 3. get the data and convert it into a table using **pandas**
       * it has a class called _DataFrame_
       * `code`.
-      '''
-        for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
-            if i>(number_of_tweets-1):
-                break
-            tweets.append([tweet.date,tweet.id,tweet.url,tweet.content,tweet.user.username,tweet.replyCount,tweet.retweetCount,tweet.lang,tweet.source,tweet.likeCount])
-        df=pd.DataFrame(tweets,columns=['Date','Id','Url','Text','Username','Reply_count','Retweet_count','Language','Source','Likecount'])
-      '''
+      ```
+git status
+git add
+git commit
+```
 4. use **steamlit** to create a *webpage
 5. add the option for users to download the file as
      * csv
