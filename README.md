@@ -5,10 +5,10 @@
    The code is used to scrape the data on a range of date using python and displayed using streamlit
 ***
 #### Task List:
-    Import some needed modules. such as
-      [x]pandas
-      [x]streamlit
-      [x]json
-      [x]snscrape
+    Import some needed modules
+     - [x]pandas
+     - [x]streamlit
+     - [x]json
+     - [x]snscrape
   
    
