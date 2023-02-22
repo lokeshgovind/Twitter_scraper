@@ -26,10 +26,24 @@ for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
 df=pd.DataFrame(tweets,columns=['Date','Id','Url','Text','Username','Reply_count','Retweet_count','Language','Source','Likecount'])
 
 ```
-4. use **streamlit** to create a * webpage
+4. use **streamlit** to create a *webpage*
 5. add the option for users to download the file as
      * csv
      - json
 6. #### **Inserting the data into database**
      + first we have to conver the table into dictionary format
      + and add the dictionry file as a document into the collection **scrapped_twitter_data** of the database **twitter_data**
+     * `code`
+     ```
+      my_db=client["twitter_data"]
+            my_collection=my_db["scrapped_twitter_data"]                        
+            now=datetime.now()
+            current_date=now.strftime("%d/%m/%Y")
+            data_dictionary=df.to_dict("records")
+            about_tweet={
+                "Scraped Word": username,
+                "Scraped Date":current_date,
+                "Scraped Data":data_dictionary
+                }        
+            my_collection.insert_one(about_tweet)
+```
