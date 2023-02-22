@@ -13,7 +13,7 @@ Import some needed modules
 
  ---
 ### **How it works** ?
-1. To scrape data use **snscrape**. [reference]([https://www.google.com](https://medium.com/dataseries/how-to-scrape-millions-of-tweets-using-snscrape-195ee3594721))
+1. To scrape data use **snscrape**. [reference](https://medium.com/dataseries/how-to-scrape-millions-of-tweets-using-snscrape-195ee3594721))
 2. create a empty list to add the data 
 3. get the data and convert it into a table using **pandas**
       * it has a class called _DataFrame_
