@@ -13,6 +13,6 @@ Import some needed modules
 
  ---
 ### **How it works** ?
-1.To scrape data use **snscrape**.
-2.get the data and convert it into a table using **pandas**
+1. To scrape data use **snscrape**.
+2. get the data and convert it into a table using **pandas**
       * it has a class called _DataFrame_
